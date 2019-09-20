@@ -3826,6 +3826,14 @@ gatsby-telemetry@^1.1.23:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
+"gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz":
+  version "3.0.0"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz#8f7a730b6c4232fe6ee73555e2dd453a034f1914"
+
+"gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz":
+  version "10.0.0"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz#e992c3c37502e66e2680898cc65d6b52e28a98d4"
+
 gatsby-transformer-json@^2.2.8:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-json/-/gatsby-transformer-json-2.2.8.tgz#7577452fa667c78183888597ac13c2c0b29b050e"
