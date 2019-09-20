@@ -3868,11 +3868,11 @@ gatsby-telemetry@^1.1.25:
 
 "gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz":
   version "3.0.0"
-  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz#8f7a730b6c4232fe6ee73555e2dd453a034f1914"
+
 
 "gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz":
   version "10.0.0"
-  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz#e992c3c37502e66e2680898cc65d6b52e28a98d4"
+
 
 gatsby-transformer-json@^2.2.8:
   version "2.2.9"
