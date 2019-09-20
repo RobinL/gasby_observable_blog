@@ -13,6 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
+    "@observablehq/runtime": "^4.4.4",
     "gatsby": "^2.15.14",
     "gatsby-source-filesystem": "^2.1.22",
     "gatsby-test": "https://api.observablehq.com/@robinl/gatsby-test.tgz",
