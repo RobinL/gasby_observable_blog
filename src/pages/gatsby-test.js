@@ -1,8 +1,8 @@
 import React from "react"
 import notebook from "gatsby-test"
-import NotebookThing from "../components/obs_page"
-// import Layout from "../layouts"
+import ObservablePage from "../components/obs_page"
 
 export default ({ data }) => (
-    NotebookThing(notebook)
+
+    ObservablePage(notebook)
 )

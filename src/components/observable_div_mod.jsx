@@ -19,14 +19,12 @@ class ObeservableNotebookDivMod extends Component {
         const output_order = this.props.output_order;
 
         const node = document.getElementById(mountId);
+
         // Add a cell for each output in the order specified in output_order
-
-
         output_order.forEach(d => {
             let div = document.createElement("div");
             let output_id = get_output_id_from_name(d)
             div.setAttribute("id", output_id)
-            // div.innerHTML = output_id
             node.append(div);
         })
 
@@ -45,6 +43,7 @@ class ObeservableNotebookDivMod extends Component {
                     if (output_order.includes(name)) {
                         let output_id = get_output_id_from_name(name)
                         let output_node = document.getElementById(output_id);
+                        output_node.innerHTML = null
                         output_node.append(value)
                     }
 
