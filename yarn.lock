@@ -799,6 +799,10 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
+"@robinl/energy-usage-calculator-for-everyday-activities@https://api.observablehq.com/@robinl/energy-usage-calculator-for-everyday-activities.tgz?v=3":
+  version "444.0.0"
+  resolved "https://api.observablehq.com/@robinl/energy-usage-calculator-for-everyday-activities.tgz?v=3#0a1a1d39210e8882d4a7c9fc226bbd2ff98188cf"
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -3868,11 +3872,11 @@ gatsby-telemetry@^1.1.25:
 
 "gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz":
   version "3.0.0"
-
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz#8f7a730b6c4232fe6ee73555e2dd453a034f1914"
 
 "gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz":
   version "10.0.0"
-
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz#e992c3c37502e66e2680898cc65d6b52e28a98d4"
 
 gatsby-transformer-json@^2.2.8:
   version "2.2.9"

@@ -6,6 +6,17 @@ const mountId = 'observable-mount';
 
 const outputs = ["header__o", "text__o"]
 
+
+// import { Runtime, Inspector } from "./runtime.js";
+// import define from "./d/2206327fcbf2a485.js";
+
+// const runtime = new Runtime();
+// const main = runtime.module(define, Inspector.into(document.body));
+
+
+// import { Runtime, Inspector } from "@observablehq/runtime";
+// import define from "@robinl/energy-usage-calculator-for-everyday-activities";
+
 class ObeservableNotebookDiv extends Component {
 
 
@@ -15,6 +26,8 @@ class ObeservableNotebookDiv extends Component {
         const root = document.getElementById(
             mountId
         );
+
+
 
         Runtime.load(
             notebook,
