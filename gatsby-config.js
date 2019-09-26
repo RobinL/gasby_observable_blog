@@ -7,7 +7,7 @@
 
 
 module.exports = {
-  pathPrefix: "/reponame",
+  pathPrefix: "/gasby_observable_blog",
   plugins: [
     `gatsby-transformer-json`,
     {
