@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "gatsby": "gatsby build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -17,8 +18,8 @@
     "@robinl/energy-usage-calculator-for-everyday-activities": "https://api.observablehq.com/@robinl/energy-usage-calculator-for-everyday-activities.tgz?v=3",
     "gatsby": "^2.15.26",
     "gatsby-source-filesystem": "^2.1.22",
-    "gatsby-test": "https://api.observablehq.com/@robinl/gatsby-test.tgz",
-    "gatsby-test-2": "https://api.observablehq.com/@robinl/gatsby-test-2.tgz",
+    "@robinl/gatsby-test": "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3",
+    "@robinl/gatsby-test-2": "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3",
     "gatsby-transformer-json": "^2.2.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
