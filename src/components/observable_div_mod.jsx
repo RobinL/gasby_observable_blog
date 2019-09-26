@@ -49,9 +49,9 @@ class ObeservableNotebookDivMod extends Component {
                         output_node.append(value)
                     }
 
-                    if (output_order.length == 0) {
-                     node.prepend(value)
-                    }
+                    // if (output_order.length == 0) {
+                    //  node.prepend(value)
+                    // }
 
                 },
                 rejected(error) {
@@ -62,6 +62,10 @@ class ObeservableNotebookDivMod extends Component {
             };
         });
 
+        if (output_order.length == 0) {
+            const runtime2 = new Runtime();
+            const main2 = runtime2.module(define, Inspector.into(node));
+        }
         // const main = runtime.module(define, name => {
 
         //     console.log(name)

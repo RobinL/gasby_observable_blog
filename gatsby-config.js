@@ -7,7 +7,7 @@
 
 
 module.exports = {
-
+  pathPrefix: "/reponame",
   plugins: [
     `gatsby-transformer-json`,
     {
