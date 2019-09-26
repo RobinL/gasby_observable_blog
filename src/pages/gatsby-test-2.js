@@ -1,7 +1,8 @@
 import React from "react"
-import notebook from "gatsby-test-2"
-import ObservablePage from "../components/obs_page"
+import define from "@robinl/gatsby-test-2"
+import ObservablePageMod from "../components/obs_page_def"
+
 
 export default ({ data }) => (
-    ObservablePage(notebook)
+    ObservablePageMod(define)
 )
