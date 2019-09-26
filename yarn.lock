@@ -800,15 +800,12 @@
 
 "@robinl/energy-usage-calculator-for-everyday-activities@https://api.observablehq.com/@robinl/energy-usage-calculator-for-everyday-activities.tgz?v=3":
   version "456.0.0"
-  resolved "https://api.observablehq.com/@robinl/energy-usage-calculator-for-everyday-activities.tgz?v=3#9ef869d7642b32b1616a1b148e4d886266638086"
 
 "@robinl/gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3":
   version "14.0.0"
-  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3#3482d4d88b2a571b67049762aff03c0397007faa"
 
 "@robinl/gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3":
   version "21.0.0"
-  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3#682ddfb584b57011728f1dc73f9a205f453c4f8b"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
