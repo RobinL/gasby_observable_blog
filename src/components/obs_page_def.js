@@ -5,7 +5,7 @@ import ObeservableNotebookDivMod from "../components/observable_div_mod"
 let output_order = [
     "title",
     "under_title_blurb",
-    "key_to_graphics",
+    "key_to_graphics_title",
     "driving_title",
     "driving_text_output",
     "driving_chart_output"
@@ -14,7 +14,7 @@ let output_order = [
 
 let ObservablePageMod = (define) => (
     <Layout>
-        <ObeservableNotebookDivMod define={define} />
+        <ObeservableNotebookDivMod define={define} output_order={output_order}/>
     </Layout>
 )
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 import { Runtime, Inspector } from '@observablehq/runtime';
-// import { clearLine } from 'readline';
 
 const mountId = 'observable-mount';
 
-
-
+function get_output_id_from_name(name) {
+    return "output__" + name
+}
 
 // Think we need to pre-generate a cell for each output in the desired order.
 
@@ -16,10 +16,20 @@ class ObeservableNotebookDivMod extends Component {
     componentDidMount() {
 
         const define = this.props.define;
-
-
+        const output_order = this.props.output_order;
 
         const node = document.getElementById(mountId);
+        // Add a cell for each output in the order specified in output_order
+
+
+        output_order.forEach(d => {
+            let div = document.createElement("div");
+            let output_id = get_output_id_from_name(d)
+            div.setAttribute("id", output_id)
+            // div.innerHTML = output_id
+            node.append(div);
+        })
+
         const runtime = new Runtime();
 
         const main = runtime.module(define, name => {
@@ -30,8 +40,13 @@ class ObeservableNotebookDivMod extends Component {
                 },
                 fulfilled(value) {
                     node.classList.remove("running");
-                    node.prepend(value)
+                    console.log(name)
 
+                    if (output_order.includes(name)) {
+                        let output_id = get_output_id_from_name(name)
+                        let output_node = document.getElementById(output_id);
+                        output_node.append(value)
+                    }
 
                 },
                 rejected(error) {
