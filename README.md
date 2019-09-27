@@ -21,6 +21,7 @@ let output_order = [
     ]
 ```
 
+To make it work on your Github pages, you'll want to update the `pathPrefix` variable in `gatsby_config.json`.
 
 ## Notes/Issues
 
