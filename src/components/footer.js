@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Footer = () => (
+
     <div>
-       Amazing footer
+        <hr/>
+        <div>Amazing footer</div>
     </div>
+
 )
 
 export default Footer

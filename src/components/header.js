@@ -2,7 +2,8 @@ import React from 'react'
 
 const Header = ({ siteTitle }) => (
     <div>
-       Here's my site's amazing header.
+        <div>Here's my site's amazing header.</div>
+        <hr/>
     </div>
 )
 
