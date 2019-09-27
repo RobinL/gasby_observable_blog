@@ -24,6 +24,8 @@ let output_order = [
 
 ## Notes/Issues
 
+- For a long time I was trying to generate all notebook pages from a `data.json` file, by trying to dynamically import modules from a variable.  I now do not thing this is possible because of the way webpack works - see [here](https://stackoverflow.com/questions/58011164/dynamic-module-import-in-component-for-gatsby-js-site)
+
 - User must install the notebook from the version 3 runtime e.g. `yarn add https://api.observablehq.com/@robin
 l/gatsby-test.tgz\?v\=3`.  This will make sure you can import `define` (rather than `notebook`) from the node package.  Some tangential discussion [here](https://talk.observablehq.com/t/runtime-v3-modules/1767).
 
