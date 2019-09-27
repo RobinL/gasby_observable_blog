@@ -1,10 +1,24 @@
-import React from 'react'
+import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 
-const Header = ({ siteTitle }) => (
-    <div>
-        <div>Here's my site's amazing header.</div>
-        <hr/>
-    </div>
+// https://stackoverflow.com/questions/52780033/uncaught-typeerror-cannot-read-property-data-of-undefined-with-gatsby-and-gra
+
+export default () => (
+    <StaticQuery
+        query={graphql`
+      query HeadingQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+        render={data => (
+            <header>
+                <h2>{data.site.siteMetadata.title}</h2>
+                <div>This is part of the site header</div>
+            </header>
+        )}
+    />
 )
-
-export default Header

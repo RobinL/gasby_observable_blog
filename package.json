@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@observablehq/runtime": "^4.4.4",
-    "@robinl/energy-usage-calculator-for-everyday-activities": "https://api.observablehq.com/@robinl/energy-usage-calculator-for-everyday-activities.tgz?v=3",
     "gatsby": "^2.15.26",
     "gatsby-source-filesystem": "^2.1.22",
     "@robinl/gatsby-test": "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3",

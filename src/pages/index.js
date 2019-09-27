@@ -7,7 +7,7 @@ export default ( {data} ) => (
 <Layout>
     <div>Hello world!</div>
     <div>
-            {data.allSitePage.nodes.map((node) => (<p><Link to={node.path}>{node.path} </Link></p>))}
+          {data.allSitePage.nodes.map((node) => (<p><Link to={node.path}>{node.path} </Link></p>))}
     </div>
 </Layout>
 
