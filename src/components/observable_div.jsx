@@ -5,7 +5,8 @@ import { Runtime, Inspector } from '@observablehq/runtime';
 const mountId = 'observable-mount';
 
 function get_output_id_from_name(name) {
-    return "output__" + name
+    let name2 = name.replace("viewof ", "")
+    return "output__" + name2
 }
 
 class ObeservableNotebookDiv extends Component {
@@ -33,7 +34,7 @@ class ObeservableNotebookDiv extends Component {
 
         if (output_order.length > 0) {
 
-            const main = runtime.module(define, name => {
+            runtime.module(define, name => {
 
                 function get_output_node(name) {
                     let output_id = get_output_id_from_name(name)
@@ -74,9 +75,9 @@ class ObeservableNotebookDiv extends Component {
             });
         }
 
-        if (output_order.length == 0) {  // If no output order specified, just dump whole notebook into mount node
+        if (output_order.length === 0) {  // If no output order specified, just dump whole notebook into mount node
             const runtime2 = new Runtime();
-            const main2 = runtime2.module(define, Inspector.into(mount_node));
+            runtime2.module(define, Inspector.into(mount_node));
         }
     }
 
