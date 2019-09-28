@@ -1,4 +1,4 @@
-Minimal template of a gatsby blog hosted on Github pages where pages can be authored on https://observablehq.com.  Click [here](https://robinl.github.io/gasby_observable_blog/) for live demo.
+Minimal template of a Gatsby blog hosted on Github pages where pages can be authored on https://observablehq.com.  Click [here](https://robinl.github.io/gasby_observable_blog/) for live demo.
 
 In this template:
 - Some pages e.g. [here](https://robinl.github.io/gasby_observable_blog/gatsby-test/) and [here](https://robinl.github.io/gasby_observable_blog/gatsby-test-2/) contain interactive observable notebooks.  The author can select which cells to include in what order using a simple list.
