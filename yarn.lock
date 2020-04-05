@@ -799,10 +799,14 @@
     warning "^3.0.0"
 
 "@robinl/gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3":
-  version "41.0.0"
+  version "43.0.0"
+  uid a09dbd64aa1cb3f23d89b3913098fa14f2df5b06
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3#a09dbd64aa1cb3f23d89b3913098fa14f2df5b06"
 
 "@robinl/gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3":
   version "21.0.0"
+  uid "27a15b5c11e67639e8ff21fe9699e69820b9b813"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3#27a15b5c11e67639e8ff21fe9699e69820b9b813"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
@@ -1080,8 +1084,8 @@ acorn-jsx@^5.0.0:
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.2.tgz#84b68ea44b373c4f8686023a551f61a21b7c4a4f"
 
 acorn@^6.0.7, acorn@^6.2.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
 
 address@1.0.3:
   version "1.0.3"
