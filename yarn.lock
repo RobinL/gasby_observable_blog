@@ -799,10 +799,14 @@
     warning "^3.0.0"
 
 "@robinl/gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3":
-  version "41.0.0"
+  version "43.0.0"
+  uid e0021cec8b46ee1230e3f9402a8edc1f31ac29c2
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3#e0021cec8b46ee1230e3f9402a8edc1f31ac29c2"
 
 "@robinl/gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3":
   version "21.0.0"
+  uid adf917d7bdeb50d2f960ff1c39d377050d024f2e
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3#adf917d7bdeb50d2f960ff1c39d377050d024f2e"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
@@ -5355,8 +5359,8 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
 lodash@^4.11.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
 
 log-update@^3.0.0:
   version "3.3.0"
