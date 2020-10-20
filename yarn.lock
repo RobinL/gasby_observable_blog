@@ -799,10 +799,14 @@
     warning "^3.0.0"
 
 "@robinl/gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3":
-  version "41.0.0"
+  version "43.0.0"
+  uid cf227ac6877c21415dc10e398e72b02712238d08
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3#cf227ac6877c21415dc10e398e72b02712238d08"
 
 "@robinl/gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3":
   version "21.0.0"
+  uid "2dd4d7adf2219cbef9cb454b99d699ad177f52be"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3#2dd4d7adf2219cbef9cb454b99d699ad177f52be"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
@@ -6019,8 +6023,8 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
 
 object-path@^0.11.2, object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
 
 object-visit@^1.0.0:
   version "1.0.1"
