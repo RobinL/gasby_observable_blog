@@ -799,10 +799,14 @@
     warning "^3.0.0"
 
 "@robinl/gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3":
-  version "41.0.0"
+  version "43.0.0"
+  uid "0634dee758294710169fff73c1462c8365a5f2d9"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3#0634dee758294710169fff73c1462c8365a5f2d9"
 
 "@robinl/gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3":
   version "21.0.0"
+  uid "6aa11b003b88efa40600003eab8dbd1438b79615"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3#6aa11b003b88efa40600003eab8dbd1438b79615"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
@@ -5699,8 +5703,8 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
     minimist "0.0.8"
 
 moment@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
