@@ -799,10 +799,14 @@
     warning "^3.0.0"
 
 "@robinl/gatsby-test-2@https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3":
-  version "41.0.0"
+  version "43.0.0"
+  uid "2e92e8fbb5436befc117717b369af25e0be892b2"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test-2.tgz?v=3#2e92e8fbb5436befc117717b369af25e0be892b2"
 
 "@robinl/gatsby-test@https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3":
   version "21.0.0"
+  uid "57d4bf546e8349967ca4787cac8dbd4646f24b20"
+  resolved "https://api.observablehq.com/@robinl/gatsby-test.tgz?v=3#57d4bf546e8349967ca4787cac8dbd4646f24b20"
 
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
@@ -2628,8 +2632,8 @@ decamelize@^1.1.1, decamelize@^1.2.0:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
 
 decompress-response@^3.2.0, decompress-response@^3.3.0:
   version "3.3.0"
